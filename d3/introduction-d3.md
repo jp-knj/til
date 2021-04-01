@@ -29,3 +29,30 @@ With in the SVG world, x increase going right and, y increase going down.
 ## About Path Command ?
 
 ![IMG_56DB30FB93CB-1](https://user-images.githubusercontent.com/70939128/113280621-7cae5080-931f-11eb-8de6-8c16246b00fc.jpeg)
+
+## Make a Smile face
+
+![IMG_E98E7B3BFC97-1](https://user-images.githubusercontent.com/70939128/113281920-335f0080-9321-11eb-99da-743b083ba8f9.jpeg)
+
+## About API
+
+```html
+// wrap SVG element with d3
+  const svg = d3.select('#container')
+
+// select the first path in the svg selection
+  const select = svg.select('rect')
+
+// select all the paths in the svg selection
+  const selectAll = svg.selectAll('rect')
+
+console.log('svg', svg)
+
+// return svg
+// return select
+// return selectAll
+```
+
+## What is Data binding ?
+
+<img width="1039" alt="スクリーンショット 2021-04-02 8 23 14" src="https://user-images.githubusercontent.com/70939128/113363793-caad6d80-938c-11eb-9b3b-c09f7b32dddd.png">
