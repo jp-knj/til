@@ -81,3 +81,22 @@ d3.select(svg).selectAll('rect')
 
 **How to work ".append()"**
 <img width="869" alt="スクリーンショット 2021-04-04 10 05 21" src="https://user-images.githubusercontent.com/70939128/113496897-33d1e400-9539-11eb-9c53-93818e34acb4.png">
+
+## About Scales and Sizes
+We use D3.js scales to translate raw data into visual channels.
+
+**And some common visual channels:**
+- position
+  ( x, y)
+
+- size
+  ( width, height, radius, scale)
+
+- color
+  ( sequential, diverging)
+
+- shape
+  ( dots, squares, letters)
+
+- color
+  ( categorical)
