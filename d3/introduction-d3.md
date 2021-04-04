@@ -100,3 +100,17 @@ We use D3.js scales to translate raw data into visual channels.
 
 - color
   ( categorical)
+
+## translate and scale
+When we set scale() on an SVG element, we're scaling the whole coordinate system.
+
+## selection
+- enter()
+新しい要素を生成する
+- update()
+既存の要素を更新する
+- exit()
+不要な要素を扱う
+
+- merge()
+ enter() + update()
