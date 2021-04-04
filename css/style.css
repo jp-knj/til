@@ -24,3 +24,10 @@ body {
 .height-50 {
     height: 50vh;
 }
+
+/* grid1 */
+.grid1.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 90px 1fr 90px;
+}
