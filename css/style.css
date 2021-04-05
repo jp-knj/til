@@ -37,12 +37,44 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    column-gap: 12px;
-    align-items: center;
+    column-gap: 12px
 }
 .grid2 .item-1{
     grid-column: 2 / span 4;
 }
 .grid2 .item-2{
     grid-column: 6 / span 6;
+}
+
+/* grid3 */
+.grid3.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto auto 1fr auto auto auto;
+    gap: 24px;
+}
+
+@media (min-width: 720px){
+    .grid3.container {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .grid3 .header {
+        grid-column: 1 / span 12;
+    }
+    .grid3 .navgation {
+        grid-column: 1 / span 12;
+    }
+    .grid3 .main {
+        grid-column: 3 / span 10;
+    }
+    .grid3 .sidebar {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+    }
+    .grid3 .ads {
+        grid-column: 1 / span 2;
+    }
+    .grid3 .footer{
+        grid-column: 3 / span 10;
+    }
 }
