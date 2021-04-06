@@ -114,3 +114,19 @@ When we set scale() on an SVG element, we're scaling the whole coordinate system
 
 - merge()
  enter() + update()
+
+## What's benefit for Data to learning
+
+custom data visualizations can be categorized into two broad categories:
+
+`EXPOSITORY VS. EXPLORATORY`
+
+### EXPOSITORY
+- static dataset
+- explore data for story
+- communicate story to audience
+
+### EXPLORATORY
+- dynamic dataset
+- interview stakeholders
+- build tool for stakeholders to explore the data
