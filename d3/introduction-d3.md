@@ -149,6 +149,9 @@ Map data attributes to channels.
 
 <img width="703" alt="スクリーンショット 2021-04-07 19 44 11" src="https://user-images.githubusercontent.com/70939128/113854548-f049d500-97d9-11eb-8044-b3c41ffb2721.png">
 
+**For Example**
+<img width="787" alt="スクリーンショット 2021-04-07 20 10 26" src="https://user-images.githubusercontent.com/70939128/113857410-74518c00-97dd-11eb-8a2d-b0ad2702f06b.png">
+
 - Design : Channels
 **Quantitative**
 - Position
