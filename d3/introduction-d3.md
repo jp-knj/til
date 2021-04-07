@@ -168,4 +168,17 @@ Map data attributes to channels.
 
 <img width="441" alt="スクリーンショット 2021-04-07 19 48 33" src="https://user-images.githubusercontent.com/70939128/113854877-559dc600-97da-11eb-8613-e766fb8a3102.png">
 
+
 - Design : Channels Effectiveness
+
+<img width="519" alt="スクリーンショット 2021-04-07 20 32 35" src="https://user-images.githubusercontent.com/70939128/113860072-9567ac00-97e0-11eb-832f-c906b97d272a.png">
+
+
+- Design : Gestalt laws and Grouping 
+
+the human mind naturally groups individual elements into patterns  
+→ use in data visualization to save processing time
+
+<img width="687" alt="スクリーンショット 2021-04-07 20 49 34" src="https://user-images.githubusercontent.com/70939128/113862047-e37daf00-97e2-11eb-965d-6ba08066795a.png">
+<img width="536" alt="スクリーンショット 2021-04-07 20 49 48" src="https://user-images.githubusercontent.com/70939128/113862066-e7a9cc80-97e2-11eb-9896-00c4a5f20d57.png">
+<img width="663" alt="スクリーンショット 2021-04-07 20 49 58" src="https://user-images.githubusercontent.com/70939128/113862073-e9739000-97e2-11eb-8b77-09261b5ff578.png">
