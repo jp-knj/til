@@ -130,3 +130,21 @@ custom data visualizations can be categorized into two broad categories:
 - dynamic dataset
 - interview stakeholders
 - build tool for stakeholders to explore the data
+
+## Data Exploration: Data types
+- Categorical ( movie genres )
+- Ordinal ( T-shirt sizes )
+- Quantitative ( rating / score )
+- Temporal ( dates )
+- Spatial (cities )
+
+## Translate from date to design
+Concentrate on the takeaways to communicate across
+What does that mean in terms of the data?  (Individual or aggregate elements? Which attributes?)
+Map the relevant data to visual elements
+
+- Design : Marks & Channels
+Map individual or aggregate data elements to marks.
+Map data attributes to channels.
+
+<img width="703" alt="スクリーンショット 2021-04-07 19 44 11" src="https://user-images.githubusercontent.com/70939128/113854548-f049d500-97d9-11eb-8044-b3c41ffb2721.png">
