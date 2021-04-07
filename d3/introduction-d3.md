@@ -150,5 +150,17 @@ Map data attributes to channels.
 <img width="703" alt="スクリーンショット 2021-04-07 19 44 11" src="https://user-images.githubusercontent.com/70939128/113854548-f049d500-97d9-11eb-8044-b3c41ffb2721.png">
 
 - Design : Channels
+**Quantitative**
+- Position
+- Size
+- Color
+
+**Categorical**
+- Shape
+- Texture
+- Color
+
+**Temporal**
+- Animation
 
 <img width="441" alt="スクリーンショット 2021-04-07 19 48 33" src="https://user-images.githubusercontent.com/70939128/113854877-559dc600-97da-11eb-8613-e766fb8a3102.png">
