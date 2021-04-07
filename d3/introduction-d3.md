@@ -167,3 +167,5 @@ Map data attributes to channels.
 - Animation
 
 <img width="441" alt="スクリーンショット 2021-04-07 19 48 33" src="https://user-images.githubusercontent.com/70939128/113854877-559dc600-97da-11eb-8613-e766fb8a3102.png">
+
+- Design : Channels Effectiveness
