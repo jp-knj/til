@@ -12,12 +12,11 @@ if (c == 1) {
 
 // using switch
 switch (c) {
-  case (c == 1):
+  case 1:
     console.log("case 1")
-  case (c == 2):
-    console.log("case 2")
   default:
     console.log("default")
+  case 2:
     console.log("case 2")
 }
 
@@ -34,3 +33,23 @@ for (let i = 0; i < 3; i++){
   const j = i * 2;
   console.log(j)
 }
+
+const pow = (n, e) => {
+  let result = 1
+  for (let i = 0; i < e; i++) result *= n
+  return result
+}
+
+const powE = e => {
+  return n => pow(n,e)
+}
+
+const sumMap = (ary, f) => {
+  let result = 0
+  for (let n of ary) {
+    result += f(n)
+  }
+  return result
+}
+
+console.log(sumMap([1, 4, 5], powE(2))); //42
