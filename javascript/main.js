@@ -20,3 +20,17 @@ switch (c) {
     console.log("default")
     console.log("case 2")
 }
+
+// using while
+let i = 0;
+while (i < 3) {
+  const j = i * 2;
+  console.log(j)
+  i++;
+}
+
+// using for
+for (let i = 0; i < 3; i++){
+  const j = i * 2;
+  console.log(j)
+}
