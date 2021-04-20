@@ -190,3 +190,5 @@ the human mind naturally groups individual elements into patterns
 - What do you need to calculate the channels
 - To draw marks: SVG (or canvas)
 - To calculate channels : D3 scales, shapes, and layouts (or straight-up mathl)
+
+<img width="966" alt="スクリーンショット 2021-04-08 20 12 45" src="https://user-images.githubusercontent.com/70939128/114017440-f954a800-98a6-11eb-8e8e-75636c8fa448.png">
