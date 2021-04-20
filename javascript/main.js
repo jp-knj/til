@@ -53,3 +53,19 @@ const sumMap = (ary, f) => {
 }
 
 console.log(sumMap([1, 4, 5], powE(2))); //42
+
+class User {
+  constructor(id, name) {
+    this.id = id;
+    this.name = name;
+  }
+  post() {
+    console.log(`post by ${this.name}`)
+  }
+}
+
+class Administrator extends User {
+  publish() {
+    console.log(`post by ${this.name} as Adminstrator`)
+  }
+}
