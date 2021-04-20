@@ -1,0 +1,124 @@
+:root {
+    --wrapper-bg-color: #a4a4a4;
+    --container-bg-color: #fff;
+    --menu-color: #eaeaea;
+    --menu-font-color: #959595;
+    --menu-cta-color: #949494;
+    --footer-navigation-bg-color: #dedede;
+    --font-color: #e9e9e9;
+    --heading-primary-color: #000;
+    --heading-secondary-color: #585858;
+}
+* {
+    margin: 0;
+}
+h1 {
+    margin: 0;
+}
+.wrapper {
+    background-color: var(--wrapper-bg-color);
+    color: var(--font-color);
+}
+.container {
+    max-width: 1280px;
+    background-color: var(--container-bg-color);
+    margin: 0 auto;
+}
+.header{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.header__figure {
+    text-align: center;
+}
+.navigation {
+    margin-bottom: 50px;
+}
+.navigation__lists {
+    list-style: none;
+    text-align: center;
+}
+.navigation__items {
+    display: inline-block;
+    width: 310px;
+    background-color: var(--menu-color);
+    border-radius: 20px;
+    padding: 8px;
+    margin-right: 20px;
+}
+.navigation__items:last-child {
+    margin-right: 0;
+}
+.navigation__links {
+    color: var(--menu-font-color);
+    text-decoration: none;
+}
+.hero {
+    margin-bottom: 65px;
+    height: 400px;
+    background-image: url(./images/hero.jpg);
+}
+.content {
+    width: 890px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.content__title {
+    color: var(--heading-primary-color);
+    border-bottom: double 3px var(--font-color);
+    width: fit-content;
+    margin: 0 auto 50px;
+    padding-bottom: 4px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.articles__info {
+    margin-right: 50px;
+}
+.articles__title {
+    margin-bottom: 15px;
+}
+.articles__figure {
+    width: fit-content;
+}
+.articles__image {
+    width: 400px;
+}
+
+.footer-navigation {
+    width: 95%;
+    background-color: var(--footer-navigation-bg-color);
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 25px;
+    color: var(--heading-secondary-color);
+}
+
+.footer-navigation__subtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.footer-navigation__list {
+    padding: 0;
+    column-count: 4;
+    list-style: none;
+}
+.footer-navigation__item {
+    margin-bottom: 10px;
+}
+.footer-navigation__item::before {
+    content: '';
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    margin-right: 10px;
+    background-color: var(--heading-primary-color);
+}
+.footer-navigation__link {
+    text-decoration: none;
+    color: var(--menu-font-color);
+}
