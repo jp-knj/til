@@ -1,3 +1,11 @@
+function makeFizzBuzzIterable(max) {
+  return {
+    [Symbol.iterator]() {
+      return makeFizzBuzzIterator(max)
+    }
+  }
+}
+
 function makeFizzBuzzIterator(max) {
   let count = 0;
   return {
@@ -16,3 +24,5 @@ function makeFizzBuzzIterator(max) {
     }
   }
 }
+
+for(item of makeFizzBuzzIterable(7)){ console.log(item)}
