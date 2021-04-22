@@ -26,3 +26,5 @@ function makeFizzBuzzIterator(max) {
 }
 
 for(item of makeFizzBuzzIterable(7)){ console.log(item)}
+
+[1, 4, 5].map(n => n * n).reduce((sum, n) => sum += n);
