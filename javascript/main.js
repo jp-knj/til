@@ -149,7 +149,7 @@ Promise.resolve(42)
 //   }
 // })
 function add(a, b, c) {
-  return a + b + c;
+  return a + b + c
 }
 
 addProxy = new Proxy(add, {
@@ -158,3 +158,40 @@ apply(target, thisArg, args) {
   }
 })
 addProxy(1, 4, 5);
+
+ary = [..."WRYYYY"]
+ary.join = new Proxy(Array.prototype.join, {
+  apply(target, thisArg, args) {
+    return target.apply(thisArg, ["!"])
+  }
+})
+
+//
+extentionProxy = new Proxy({}, {
+  isExtensible(target) {
+    console.log("isExtensibleの割り込み")
+    return Object.isExtensible(target)
+  },
+  preventExtensions(target) {
+    console.log("preventExtensionsに割り込み")
+    return Object.preventExtensions(target)
+  }
+})
+
+Object.isExtensible(extentionProxy)
+
+//
+let arylike = { 0: 3.14, 1: 9.8, 2:2.718, length:3}
+
+aryProxy = new Proxy(arylike, {
+  get(target, prop) {
+    if (prop in target) {
+      return Reflect.get(target, prop)
+    } else {
+      return Reflect.get(Array.prototype, prop)
+    }
+  },
+  set(target, prop, value) {
+    return Reflect.set(target, prop, value)
+  }
+})
