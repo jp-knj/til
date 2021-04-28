@@ -1,0 +1,15 @@
+{
+  "name": "210407_scroll_demos",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn run server & yarn run sass",
+    "server": "live-server",
+    "sass": "sass styles --watch"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.8"
+  }
+}
