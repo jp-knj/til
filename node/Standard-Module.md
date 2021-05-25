@@ -16,3 +16,15 @@ const fs = require("fs");
 - `fs.rmdir()`
 - `fs.stat()`
 - `fs.readdir()`
+
+## HTTP and HTTPS
+
+```
+const fs = require("fs");
+const server = require("https").createServer(
+    {
+        key : fs.readFileSync("my_key.pem),
+        cert : fs.readFileSync("my_cert.pem)
+    }
+)
+```
