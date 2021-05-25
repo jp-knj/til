@@ -38,3 +38,16 @@ The OS module prodives a set of operating system-level utility functions that al
 - `os.homedir()` - Returns a path to the current home directory of th user runnig the process.
 - `os.hostname()` - Returns the machine's host name
 - `os.tempdir()` - Return s path to the default system temporary directory
+
+## Process
+Process allows you to retrive infor and controll the current Node process.
+
+- `process.abort()`  
+stop your program, want to use is process.exit(). you can pass an exit code to return to the process that started Node.  
+- `process.version()`  
+contains the version of Node.itself.
+- `process.uptime()`  
+How log has the Node process been running for? This method will tell you!
+- `process.mainModule()`  
+- `process.env()`  
+contains an obj whose keys are user env variables.
