@@ -28,3 +28,13 @@ const server = require("https").createServer(
     }
 )
 ```
+
+## OS 
+The OS module prodives a set of operating system-level utility functions that allow you code ti be aware if the environment it's running in and make any necessary allowances for it.
+
+- `os.EOL` - Provides you the end of line character the operating system uses.
+- `os.cpus()` - Returns an object array where each object gives you information about the cpu in the system including information like thier model, speed, and times 
+- `os.freemem()` - Returs an integer value that is the number of free system memory available in bytes.
+- `os.homedir()` - Returns a path to the current home directory of th user runnig the process.
+- `os.hostname()` - Returns the machine's host name
+- `os.tempdir()` - Return s path to the default system temporary directory
