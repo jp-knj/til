@@ -44,3 +44,27 @@ yarn
 - Next.js
 - Node v10+
 - MongoDB
+
+## Dynamic Content
+
+## Static routes and Content
+**Dynamic Content / Static Route / Static Page**
+
+### Static Props
+Using Next.js `getStaticProps` server side functions, we can inject our content from our CMS into lp.
+```
+./pages/index.tsx
+
+import { home } from "../content"
+
+~~~~~~~~~~~~
+
+export function getStaticProps() {
+	return { props: {content: home.published]}} 
+}
+```
+
+Next.js makes it easy to create dynamic routes that have params. These routes can still render static pages as well.  
+I learn how to dynamically static generate these routes at run time. 
+
+
