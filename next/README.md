@@ -67,4 +67,16 @@ export function getStaticProps() {
 Next.js makes it easy to create dynamic routes that have params. These routes can still render static pages as well.  
 I learn how to dynamically static generate these routes at run time. 
 
+## Auth wit JWTs
+we have to handle authentication. we need a few things.  
+- Create user accounts
+- Sign a user in
+- Protect pages to `/app`
+- Lock down db access
 
+this is the basic config for next-auth. With it, we get a few things.
+- github oauth
+- user creation
+- signin
+- JWT creation
+- auth page automatically configured with our providers(github)
